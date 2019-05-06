@@ -7,7 +7,6 @@ from .models import Post
 from .forms import PostForm
 
 def test(request):
-       print(request)
        return HttpResponse("Hello, word  ну тип привет")
 
 
